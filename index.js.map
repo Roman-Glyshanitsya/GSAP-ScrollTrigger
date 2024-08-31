@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"index.js","sources":["../src/js/header.js"],"sourcesContent":["import { gsap } from 'gsap';\n\nimport { TextPlugin } from 'gsap/TextPlugin';\n\ngsap.registerPlugin(TextPlugin);\n\ngsap.to('.title', {\n  duration: 2,\n  text: {\n    value: 'BAZALEVSKIY',\n    delimiter: '',\n  },\n});\n"],"names":["gsap","TextPlugin"],"mappings":"6vBAIAA,EAAK,eAAeC,CAAU,EAE9BD,EAAK,GAAG,SAAU,CAChB,SAAU,EACV,KAAM,CACJ,MAAO,cACP,UAAW,EACZ,CACH,CAAC"}
