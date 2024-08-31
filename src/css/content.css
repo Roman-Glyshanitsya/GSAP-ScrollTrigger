@@ -1,0 +1,30 @@
+.content {
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.img {
+    width: 300px;
+}
+
+.left {
+    position: relative;
+    left: -200px;
+}
+
+.right {
+    position: relative;
+    right: -200px;
+}
