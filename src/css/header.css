@@ -3,12 +3,23 @@
     height: 100vh;
     background-color: #333333;
 
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .title {
+    visibility: hidden;
+    /* color: white;
+    font-size: 50px;
+    font-weight: 700; */
+}
+
+.title div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
     color: white;
     font-size: 50px;
     font-weight: 700;
